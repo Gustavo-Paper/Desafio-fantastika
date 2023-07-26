@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto Serif', serif;
+
 }
 
 header {
@@ -17,12 +18,13 @@ header {
 }
 
 .header {
-    width: 1200px;
+    width: 87%;
     height: 69px;
     background-color: inherit;
     margin: auto;
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -62,6 +64,8 @@ header {
 main .boas-vindas {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: center;
     background-image: url(image/cachorro-chapeu2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,8 +75,14 @@ main .boas-vindas {
 
 }
 
+.boas-vindas .title {
+
+    width: 45%;
+
+}
+
 .boas-vindas div {
-    padding-top: 110px;
+    padding-top: 5%;
     text-align: center;
     font-size: 49px;
     color: #FFF;
@@ -85,7 +95,7 @@ main .boas-vindas {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 1000px;
+    height: 140vh;
 
 }
 
@@ -132,8 +142,7 @@ main .boas-vindas {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 1000px;
-
+    height: 144vh;
 
 }
 
@@ -229,11 +238,20 @@ footer .nav-footer {
     margin-bottom: 20px;
 }
 
+.nav-footer .atendimento,
+.sobre,
+.unidades a {}
+
 .nav-footer div li {
 
     font-size: 18px;
-    margin: 5px;
+    margin: 7px;
 
+}
+
+.nav-footer div li a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 footer .responsive-footer {
@@ -293,12 +311,13 @@ footer .responsive-footer {
     }
 
     main .boas-vindas .title {
-        padding-top: 150px;
-
+        padding-top: 160px;
+        width: 90%;
+        font-size: 30px;
     }
 
     main .boas-vindas div {
-        padding-top: 20px
+        padding-top: 100px
     }
 
     .section-um {
@@ -352,15 +371,22 @@ footer .responsive-footer {
 
     .section-dois .area-content1 h2 {
         font-size: 49px;
-        width: 620px;
+        width: 40vw;
+        height: 18vh;
         margin-bottom: 25px;
     }
 
     .section-dois .area-content1 p {
-        width: 545px;
+        width: 75vw;
         height: 161px;
         font-size: 27px;
     }
+
+    .section-dois .area-content1 .bt-dois {
+        margin-top: 2em;
+      
+    }
+
 
     section .apoios {
         justify-content: center;
@@ -407,11 +433,14 @@ footer .responsive-footer {
     }
 
     footer .header-footer img {
-        width: 50px;
+        width: 55px;
+
+
     }
 
     footer .header-footer img[src$="youtube.png"] {
         width: 65px;
+
     }
 
     footer .responsive-footer .atendimento,
